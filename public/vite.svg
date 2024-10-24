@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100" height="100">
+    <!-- Circle for background -->
+    <circle cx="32" cy="32" r="30" fill="#2c3e50"/>
+    
+    <!-- News Icon: Paper -->
+    <rect x="17" y="14" width="30" height="36" rx="2" ry="2" fill="#ecf0f1" stroke="#fff" stroke-width="2"/>
+    
+    <!-- Headline -->
+    <rect x="22" y="18" width="20" height="4" fill="#3498db"/>
+    
+    <!-- Paragraph lines -->
+    <rect x="22" y="26" width="18" height="2" fill="#7f8c8d"/>
+    <rect x="22" y="30" width="18" height="2" fill="#7f8c8d"/>
+    <rect x="22" y="34" width="18" height="2" fill="#7f8c8d"/>
+    
+    <!-- More paragraph lines -->
+    <rect x="22" y="40" width="10" height="2" fill="#7f8c8d"/>
+    <rect x="22" y="44" width="10" height="2" fill="#7f8c8d"/>
+    
+    <!-- Dragon News text at bottom -->
+    <text x="50%" y="80%" text-anchor="middle" font-size="6" font-family="Arial" fill="#fff">
+        Dragon News
+    </text>
+</svg>
