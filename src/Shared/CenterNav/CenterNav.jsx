@@ -6,7 +6,7 @@ import { MdRemoveRedEye } from "react-icons/md";
 
 const CenterNav = () => {
     const [news, setNews] = useState([]);
-    const [visibleNews, setVisibleNews] = useState();
+    const [visibleNews, setVisibleNews] = useState(5);
 
     useEffect(() => {
         fetch('news.json')
@@ -14,7 +14,7 @@ const CenterNav = () => {
             .then(data => setNews(data))
     }, [])
     const handlemorebutton = () => {
-        setVisibleNews(news.length)
+        setVisibleNews(news.length-10)
     }
     return (
         <div className='space-y-4'>
